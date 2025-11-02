@@ -15,4 +15,6 @@ client.on('messageCreate', message => {
   }
 });
 
+require('dotenv').config();
 client.login(process.env.TOKEN);
+
